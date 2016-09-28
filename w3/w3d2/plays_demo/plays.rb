@@ -100,7 +100,6 @@ class Playwright
   attr_reader :name, :birth_year
 
   def initialize(options)
-    p options
     @name = options['name']
     @birth_year = options['birth_year']
   end
